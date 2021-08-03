@@ -1,0 +1,133 @@
+.header{
+    background-color:#7e56ff;
+    
+   
+    position: sticky;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100000;
+
+    transition:all linear .4s;
+    
+    .navbar{
+        background-color:transparent;
+        border:0px;
+        border-radius: 0px;
+        margin: 0;
+        .navbar-header{
+            display: flex;
+            justify-content: space-between;
+        .navbar-brand{
+            width: 100%;
+        }
+        button{
+            span{
+                color: #fff;
+                font-weight:lighter;
+            }
+        }
+    }
+        .nav{
+            
+            a{
+                color:rgb(255, 255, 255);
+                text-align: center;
+                border-bottom:3px solid transparent;
+                transition:all linear .3s;
+              
+            }
+        }
+
+}
+
+}
+
+.footer{
+    background: #f9f9fb;
+    .container{
+        padding-top: 10em;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+        .left{
+            width: 30%;
+            img{
+                margin-bottom: 2em;
+            }
+            h2{
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 1em;
+            }
+            p{
+                color: #707070;
+                margin-bottom: 1.5em;
+            }
+            .icon{
+                font-size: 1.5em;
+                ul{
+                    li{
+                        width: 1.5em;
+                        height: 1.5em;
+                        line-height: 1.5em;
+                        background: #ffffff;
+                        border-radius: 100%;
+                        text-align: center;
+                        margin-right: .5em;
+                        &:hover{
+                            cursor: pointer;
+                            box-shadow: 0px 5px 10px #707070;
+
+                        }
+
+                    }
+                }
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin-left: 2em;
+            .item{
+                h3{
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                ul{
+                    color: #969494;
+                    li{
+                        margin-bottom: 1em;
+                        &:hover{
+                            cursor: pointer;
+                            color: #7e56ff;
+                        }
+                        ul{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+        }
+         .btm{
+            p{
+           text-align: center;
+                color:#707070;
+            }
+    }
+    @media screen and (max-width:700px){
+        .container{
+            .left{
+                h2{
+                    font-size: 1em;
+                }
+            }
+        }
+        
+    }
+}
